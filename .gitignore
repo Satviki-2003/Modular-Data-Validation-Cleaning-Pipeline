@@ -1,0 +1,40 @@
+# --- Data ---
+data/input/*
+data/output/*
+data/quarantine/*
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv
+venv/
+ENV/
+env/
+.env
+
+# --- IDEs and Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS generated files ---
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Thumbs.db
+
+# --- Logs ---
+logs/
+*.log
+
+# --- Replit Specific ---
+.replit
+replit.nix
+.config/
+.local/
+.apt/
+.cache/
+package-lock.json
+node_modules/

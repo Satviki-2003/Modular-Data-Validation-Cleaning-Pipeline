@@ -1,0 +1,53 @@
+{
+    "Employee_ID": {
+      "rule": "EMP[0-9]{4}",
+      "nulls": "EMPNA"
+    },
+    "First_Name": {
+      "rule": "^[A-Za-z ]*$",
+      "nulls": "Unknown"
+    },
+    "Last_Name": {
+      "rule": "[A-Za-z]*",
+      "nulls": "Unknown"
+    },
+    "Age": {
+      "rule": "^[^-0][0-9]*",
+      "nulls": "median",
+      "outliers": "Cap"
+    },
+    "Department_Region": {
+      "rule": "[A-Za-z -]*",
+      "nulls": "NA"
+    },
+    "Status":
+  {
+    "rule": "Active|Inactive|Pending",
+    "nulls": "Pending"
+  },
+    "Join_Date": {
+      "rule": "^([1-9]|1[012])/([1-9]|[12][0-9]|3[01])/\\d{4}$",
+      "nulls": "Drop"
+    },
+    "Salary": {
+      "rule": "^[^-0][0-9]*(\\.[0-9]+)?$",
+      "nulls": "Median",
+      "outliers": "Cap"
+    },
+    "Email": {
+      "rule": "[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$",
+      "nulls": "Unknown@example.com"
+    },
+    "Phone": {
+      "rule": "^-[0-9]{10}$",
+      "nulls": "0000000000"
+    },
+    "Performance_Score": {
+      "rule": "Poor|Good|Average|Excellent",
+      "nulls": "Average"
+    },
+    "Remote_Work": {
+      "rule": "True|False",
+      "nulls": "False"
+    }
+}
