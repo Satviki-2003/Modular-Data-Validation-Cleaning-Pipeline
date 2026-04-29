@@ -3,6 +3,8 @@ data/input/*
 data/output/*
 data/quarantine/*
 
+!data/**/.gitkeep
+
 # --- Python ---
 __pycache__/
 *.py[cod]
