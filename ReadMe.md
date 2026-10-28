@@ -26,6 +26,8 @@ A robust, metadata-driven Python framework designed to transform "dirty" raw dat
 ## 📂 Project Structure
 
 ```text
+├── assets/
+│   ├── firewall_architecture.png       # System architecture
 ├── data/
 │   ├── input/       # Raw, uncleaned datasets
 │   ├── output/      # Final cleaned CSVs & Health Reports
