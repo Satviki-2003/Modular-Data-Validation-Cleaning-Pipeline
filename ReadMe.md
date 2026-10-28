@@ -2,6 +2,16 @@
 
 A robust, metadata-driven Python framework designed to transform "dirty" raw data into production-ready datasets. This project moves away from static cleaning scripts by using a **JSON-driven architecture** to handle imputation, business rule validation, and outlier detection dynamically.
 
+---
+
+## 📐 Pipeline Architecture
+
+<div align="center">
+  <img src="assets/firewall_architecture.png" alt="Data Quality Firewall Architecture" width="100%"/>
+</div>
+
+---
+
 ## 🚀 Key Features
 
 * **JSON Configuration:** All cleaning rules are defined in a central `config.json`, making the pipeline dataset-agnostic.
